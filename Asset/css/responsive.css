@@ -1,0 +1,38 @@
+@media (max-width: 991.98px) {
+    :root{
+        --text-hero-size:20pt;
+    }
+    .offcanvas-collapse {
+        padding: 10px 1rem;
+        position: fixed;
+        z-index:4!important;
+        top: 0; /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 80%;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #dedede;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+    .offcanvas-collapse.open {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+    .navbar-toggler{
+        z-index:4!important;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+    .navbar-theme .nav-item{
+        padding: 0;
+    }
+    body{
+        padding: 0;
+    }
+    .navbar-expand-lg{
+        padding: 0!important;
+        height: 0px!important;
+    }
+}
