@@ -74,7 +74,6 @@ body *:not(.before) {
     filter: blur(80px);
     border-radius: 100%;
     transition: 2s;
-    animation: anime-0 3s infinite
 }
 .before .b-success{
     position: absolute;
@@ -86,7 +85,6 @@ body *:not(.before) {
     background: #b26fe2;
     border-radius: 100%;
     transition: 2s;
-    animation: anime-1 25s infinite
 }
 .before .b-success-1{
     position: absolute;
@@ -96,77 +94,6 @@ body *:not(.before) {
     background: var(--primary);
     border-radius: 100%;
     transition: 2s;
-    animation: anime-2 10s infinite
-}
-@keyframes anime-0 {
-    0% {
-        width: 200px;
-        height: 200px;
-    }
-    25% {
-        width: 250px;
-        height: 250px;
-    }
-    50% {
-        width: 270px;
-        height: 270px;
-    }
-    75% {
-        width: 280px;
-        height: 280px;
-    }
-    100% {
-        width: 200px;
-        height: 200px;
-    }
-}
-
-@keyframes anime-1 {
-    0%    {top:calc(200px);right:calc(100px);}
-    5%    {top:calc(200px + 15px);right:calc(100px - 0px);}
-    10%   {top:calc(200px + 20px);right:calc(100px - 15px);}
-    15%   {top:calc(200px + 30px);right:calc(100px - 30px);}
-    20%   {top:calc(200px + 35px);right:calc(100px - 40px);}
-    25%   {top:calc(200px + 50px);right:calc(100px - 50px);}
-    30%   {top:calc(200px + 70px);right:calc(100px - 35px);}
-    35%   {top:calc(200px + 80px);right:calc(100px - 25px);}
-    40%   {top:calc(200px + 100px);right:calc(100px - 20px);}
-    45%   {top:calc(200px + 80px);right:calc(100px - 10px);}
-    50%   {top:calc(200px + 70px);right:calc(100px + 0px);}
-    55%   {top:calc(200px + 75px);right:calc(100px + 0px);}
-    60%   {top:calc(200px + 60px);right:calc(100px + 10px);}
-    65%   {top:calc(200px + 50px);right:calc(100px + 25px);}
-    70%   {top:calc(200px + 30px);right:calc(100px + 30px);}
-    75%   {top:calc(200px + 25px);right:calc(100px + 50px);}
-    80%   {top:calc(200px + 20px);right:calc(100px + 30px);}
-    85%   {top:calc(200px + 15px);right:calc(100px + 20px);}
-    90%   {top:calc(200px + 10px);right:calc(100px + 10px);}
-    95%   {top:calc(200px + 5px);right:calc(100px + 0px);}
-    100%  {top:calc(200px);right:calc(100px);}
-}
-
-@keyframes anime-2 {
-     0%   {top:calc(70vh);right:calc(50%);}
-     5%   {top:calc(70vh + 15px);right:calc(50% - 0px);}
-    10%   {top:calc(70vh + 20px);right:calc(50% - 15px);}
-    15%   {top:calc(70vh + 30px);right:calc(50% - 30px);}
-    20%   {top:calc(70vh + 35px);right:calc(50% - 40px);}
-    25%   {top:calc(70vh + 50px);right:calc(50% - 50px);}
-    30%   {top:calc(70vh + 70px);right:calc(50% - 35px);}
-    35%   {top:calc(70vh + 80px);right:calc(50% - 25px);}
-    40%   {top:calc(70vh + 100px);right:calc(50% - 20px);}
-    45%   {top:calc(70vh + 80px);right:calc(50% - 10px);}
-    50%   {top:calc(70vh + 70px);right:calc(50% + 0px);}
-    55%   {top:calc(70vh + 75px);right:calc(50% + 0px);}
-    60%   {top:calc(70vh + 60px);right:calc(50% + 10px);}
-    65%   {top:calc(70vh + 50px);right:calc(50% + 25px);}
-    70%   {top:calc(70vh + 30px);right:calc(50% + 30px);}
-    75%   {top:calc(70vh + 25px);right:calc(50% + 50px);}
-    80%   {top:calc(70vh + 20px);right:calc(50% + 30px);}
-    85%   {top:calc(70vh + 15px);right:calc(50% + 20px);}
-    90%   {top:calc(70vh + 10px);right:calc(50% + 10px);}
-    95%   {top:calc(70vh + 5px);right:calc(50% + 0px);}
-    100%  {top:calc(70vh);right:calc(50%);}
 }
 .nav-scroller {
     position: relative;
